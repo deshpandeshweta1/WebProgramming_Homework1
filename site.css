@@ -1,0 +1,283 @@
+
+/*Body Start*/
+body {
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    width: 1000px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+/*Body End*/	
+
+/*Header Section Start*/
+
+#header {
+    background-color: #F5DA81;
+    Width: 1000px;
+    Height: 100px;
+    padding: 1px;
+    margin: 0;
+}
+
+#header h1 {
+    padding-top: 30px;
+    padding-left: 27px;
+    margin: 0;
+}
+
+#header p {
+    padding-left: 247px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#headerBanner {
+    background-color: #AEB404;
+    Width: 1000px;
+    Height: 140px;
+}
+
+#hdrContent {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.imgHeader {
+    float: right;
+    width: 290px;
+    height: 122px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#roundBorder{
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 663px;
+    height: 120px;
+	padding-left:20px;
+}
+
+.hdrBanner {
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+/*Header Section End*/
+
+/*Top Navigation Start*/
+
+#nav {
+    background-color: #F5DA81;
+    height: 30px;
+    padding: 5px;
+    margin: 0;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav  li {
+    float: left;
+}
+
+#nav  a:link, a:visited {
+    display: block;
+    width: 135px;
+    color: black;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+	font-weight:bold;
+	font-family:Arial;
+	font-size:14px;
+}
+
+#nav  a:hover, a:active {
+    background: #AEB404;
+    color: white;
+}
+/*Top Navigation End*/
+	
+
+/*Sidebar Start*/
+
+
+#sidebar {
+    background-color: #AEB404;
+    width: 270px;
+    height: 800px;
+    text-align: left;
+    float: left;
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+#sidebarMenu {
+    clear: both;
+    width: 150px;
+    padding-left: 35px;
+}
+
+#sidebarMenu a {
+   color: black;
+   font-size:14px;
+}
+
+#sidebarMenu hr {
+   clear: both;
+   background-color: #F5DA81;
+   height: 1px;
+   border-width: 0;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+.events {
+    padding-left: 18px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.eventBlock {
+    color: #6C6C6C;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+}
+
+/*Sidebar Section End*/
+
+/*Section Start*/
+
+#Section {
+    color: #6C6C6C;
+    height: 800px;
+}
+
+.secHeading {
+    color: #AEB404;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.quoteLine {
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+.secContent {
+    text-indent: 5em;
+    padding-top: 10px;
+    padding-right: 18px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #6C6C6C;
+}
+
+#section a {
+    color: #AEB404;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #AEB404;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+    border-radius: 7px;
+    height: 35px;
+    width: 80px;
+}
+
+#section table {
+    background-color: black;
+    width: 550px;
+    font-family: Arial;
+	font-size:14px;
+}
+
+#section table, td, th {
+    text-align: center;
+}
+
+#section th {
+    background-color: #AEB404;
+    color: white;
+}
+
+#section td {
+    background-color: #ECD6AE;
+    color: black;
+}
+
+/*section End*/
+
+
+/*Footer Start*/
+
+#footer {
+    clear: left;
+    width: 1000px;
+    padding-top: 30px;
+}
+
+    #footer a {
+        color: #ce8e19;
+        margin-top: 40px;
+    }
+
+.topFooter {
+    background-color: #F5DA81;
+    width: 1000px;
+    height: 30px;
+    color: #6C6C6C;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+	font-size:14px;
+}
+
+.bottomFooter {
+    background-color: #AEB404;
+    width: 1000px;
+    height: 40px;
+}
+/*Footer Section End*/
+
+/*Contact-Us Form Start*/
+
+.heading{
+color:#AEB404;
+padding-top:45px;
+}
+
+.form {
+    width: 227px;
+    height: 25px;
+}
+
+.submitBtn {
+    background-color: #AEB404;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+    border-radius: 7px;
+    height: 35px;
+    width: 80px;
+}
+
+/*Contact-Us Form End*/
